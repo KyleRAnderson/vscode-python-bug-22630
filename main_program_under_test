@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+
+import sys
+
+if ".testvenv" not in sys.executable:
+	sys.exit(1)
